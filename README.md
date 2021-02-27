@@ -4,7 +4,16 @@
 
 <hr>
 
-## 🛠 Technologies 🛠
+## Project Status ✅ 
+🚧 Under construction... 🚧
+
+## Application Demo ✅
+<h1 align="center" >
+  <img src="https://user-images.githubusercontent.com/65872394/109372192-0a150580-7887-11eb-86df-08e1ed1ae7d8.png"/>
+  <p>Home page.</p>
+</h1>
+
+## Technologies 🛠
  
 The following tools were used in the construction of the project:
 
@@ -14,7 +23,7 @@ The following tools were used in the construction of the project:
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [js-cookie](https://github.com/js-cookie/js-cookie)
 
-## 🚀 How to run the app 🚀
+## How to run the app 🚀
 
 Inside a folder, run:
 ```bash
