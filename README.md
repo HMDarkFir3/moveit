@@ -13,12 +13,11 @@
   <p align="left" >Home screen.</p>
 </p>
 
-<hr>
-
-<h1 align="center">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/65872394/109372354-d4bce780-7887-11eb-869a-6f145e96638c.png" />
-</h1>
-Click on "Iniciar ciclo" to count the countdown, with the countdown on, you can abandon the cycle, thus returning to the home screen.
+  <p>Click on "Iniciar ciclo" to count the countdown, with the countdown on, you can abandon the cycle, thus returning to the home screen.</p>
+</p>
+
 
 ## Technologies 🛠
  
