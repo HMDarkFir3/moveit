@@ -8,15 +8,7 @@
 🚧 Under construction... 🚧
 
 ## Application Demo ✅
-<p align="center" >
-  <img src="https://user-images.githubusercontent.com/65872394/109372192-0a150580-7887-11eb-86df-08e1ed1ae7d8.png" />
-  <p align="left" >Home screen.</p>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/65872394/109372354-d4bce780-7887-11eb-869a-6f145e96638c.png" />
-  <p>Click on "Iniciar ciclo" to count the countdown, with the countdown on, you can abandon the cycle, thus returning to the home screen.</p>
-</p>
+[Click here.](https://moveit-inky.vercel.app)
 
 
 ## Technologies 🛠
