@@ -16,18 +16,18 @@ The following tools were used in the construction of the project:
 
 ## 🚀 How to run the app 🚀
 
+Inside a folder, run:
 ```bash
-# Clone this repository
 $ git clone https://github.com/HMDarkFir3/NLW-04_move.it
 ```
+At the root of the project, run:
 ```bash
-# At the root of the project, run:
 npm install  
 or 
 yarn install
 ```
+After installing the project dependencies, run:
 ```bash
-# To run the app in your machine:
 npm run dev
 or
 yarn dev
