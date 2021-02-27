@@ -10,8 +10,9 @@
 ## Application Demo ✅
 <h1 align="center" >
   <img src="https://user-images.githubusercontent.com/65872394/109372192-0a150580-7887-11eb-86df-08e1ed1ae7d8.png" />
+  <p align="left" >Home screen.</p>
 </h1>
-Home screen.
+
 
 <hr>
 
