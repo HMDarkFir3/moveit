@@ -54,4 +54,5 @@ The following tools were used in the construction of the project:
 
 ## License
 This project is under the license [MIT](./LICENSE)
+<br>
 👋🏽 [Get in Touch!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
