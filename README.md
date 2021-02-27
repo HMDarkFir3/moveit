@@ -45,7 +45,12 @@ The following tools were used in the construction of the project:
 
 ## Author 🦸
 
- <img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
- <sub><b>Henrique Luís Oliveira Marques</b></sub>
+<img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
+ <h4>Henrique Luís Oliveira Marques</h4>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Henrique-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/) 
+
+<hr>
+
+## License
+
