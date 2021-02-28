@@ -1,5 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
+import { BsFillPlayFill } from "react-icons/bs";
+import { IoClose } from "react-icons/io5";
 
 //Context
 import { CountdownContext } from "../contexts/CountdownContext";
@@ -40,7 +42,7 @@ export function Countdown() {
           <IoCheckmarkCircle
             color="#4cd62b"
             size="20"
-            className={styles.iconCkeck}
+            className={styles.iconCheck}
           />
         </button>
       ) : (
@@ -52,6 +54,7 @@ export function Countdown() {
               onClick={resetCountdown}
             >
               Abandonar ciclo
+              <IoClose className={styles.iconClose} />
             </button>
           ) : (
             <button
@@ -60,6 +63,7 @@ export function Countdown() {
               onClick={startCountdown}
             >
               Iniciar um ciclo
+              <BsFillPlayFill className={styles.iconPlay} />
             </button>
           )}
         </>

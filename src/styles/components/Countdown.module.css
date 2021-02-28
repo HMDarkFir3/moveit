@@ -83,7 +83,15 @@
   margin-top: 0.3rem;
 }
 
-.iconCkeck {
+.iconCheck {
   margin-left: 0.5rem;
   margin-top: 0.3rem;
+}
+
+.iconClose {
+  margin-left: 0.5rem;
+}
+
+.iconPlay {
+  margin-left: 0.5rem;
 }

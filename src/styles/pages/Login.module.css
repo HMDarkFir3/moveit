@@ -1,0 +1,32 @@
+.containerLogin {
+  background: var(--blue);
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.containerLogin div {
+  display: flex;
+  flex-direction: column;
+
+  height: 70%;
+  width: 40%;
+
+  padding: 8rem;
+}
+
+.containerLogin div h1 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin-top: 6rem;
+}
+
+.containerLogin div p {
+  color: var(--text-highlight);
+  font-size: 1.09rem;
+  margin-top: 2rem;
+}

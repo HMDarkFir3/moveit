@@ -1,65 +1,42 @@
-import Head from "next/head";
-import { GetServerSideProps } from "next";
+import { useEffect } from "react";
+import { signIn, useSession } from "next-auth/client";
+import { useRouter } from "next/router";
+import styles from "../styles/pages/Login.module.css";
 
-//Component
-import { ExperienceBar } from "../components/ExperienceBar";
-import { Profile } from "../components/Profile";
-import { CompletedChallenges } from "../components/CompletedChallenges";
-import { Countdown } from "../components/Countdown";
-import { ChallengeBox } from "../components/ChallengeBox";
+export default function Login() {
+  const [session] = useSession();
+  const router = useRouter();
 
-//Context
-import { ChallengesProvider } from "../contexts/ChallengesContext";
-import { CountdownProvider } from "../contexts/CountdownContext";
+  useEffect(() => {
+    if (session) {
+      router.push("/home");
+    }
+  }, [session, router]);
 
-//Style
-import styles from "../styles/pages/Home.module.css";
-
-interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
-}
-
-export default function Home(props: HomeProps) {
   return (
-    <ChallengesProvider
-      level={props.level}
-      currentExperience={props.currentExperience}
-      challengesCompleted={props.challengesCompleted}
-    >
-      <div className={styles.container}>
-        <Head>
-          <title>Inicio | move.it</title>
-        </Head>
+    <div className={styles.containerLogin}>
+      <img
+        src="/symbol-logo.svg"
+        alt="Símbolo move.it"
+        className={styles.symbol}
+      />
 
-        <ExperienceBar />
-
-        <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
+      <div>
+        <img src="/logo-full-white.svg" alt="move.it" />
+        <h1>Bem-vindo</h1>
+        <p>Faça o login com o seu Github ou Google para começar</p>
       </div>
-    </ChallengesProvider>
+
+      <button
+        type="button"
+        onClick={() =>
+          signIn("github", {
+            callbackUrl: "http://localhost:3000/home",
+          })
+        }
+      >
+        Continuar com Github
+      </button>
+    </div>
   );
 }
-
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
-
-  return {
-    props: {
-      level: Number(level),
-      currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted),
-    },
-  };
-};
