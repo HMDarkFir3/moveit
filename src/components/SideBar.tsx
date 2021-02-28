@@ -10,6 +10,7 @@ import styles from "../styles/components/SideBar.module.css";
 import { FiHome } from "react-icons/fi";
 import { FiAward } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
+import { FiSettings } from "react-icons/fi";
 
 export function SideBar() {
   const router = useRouter();
@@ -32,13 +33,19 @@ export function SideBar() {
             <FiAward size={28} color="#666666" />
           </Link>
         </li>
+
+        <li className={router.pathname == "/home" ? styles.menuActive : ""}>
+          <Link href="/settings">
+            <FiSettings size={28} color="#666666" />
+          </Link>
+        </li>
       </ul>
 
       <div className={styles.logout}>
         <FiLogOut
           onClick={() =>
             signOut({
-              callbackUrl: `${process.env.REACT_APP_URL}/`,
+              callbackUrl: "https://moveit-6jvvw0eqp-hmdarkfir3.vercel.app",
             })
           }
           size="28"
