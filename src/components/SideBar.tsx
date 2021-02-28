@@ -10,7 +10,6 @@ import styles from "../styles/components/SideBar.module.css";
 import { FiHome } from "react-icons/fi";
 import { FiAward } from "react-icons/fi";
 import { FiLogOut } from "react-icons/fi";
-import { FiSettings } from "react-icons/fi";
 
 export function SideBar() {
   const router = useRouter();
@@ -39,7 +38,7 @@ export function SideBar() {
         <FiLogOut
           onClick={() =>
             signOut({
-              callbackUrl: "http:localhost:3000",
+              callbackUrl: "https://moveit-6jvvw0eqp-hmdarkfir3.vercel.app",
             })
           }
           size="28"
