@@ -33,12 +33,6 @@ export function SideBar() {
             <FiAward size={28} color="#666666" />
           </Link>
         </li>
-
-        <li className={router.pathname == "/home" ? styles.menuActive : ""}>
-          <Link href="/settings">
-            <FiSettings size={28} color="#666666" />
-          </Link>
-        </li>
       </ul>
 
       <div className={styles.logout}>
