@@ -62,4 +62,10 @@
 .logout {
   position: fixed;
   bottom: 2rem;
+
+  cursor: pointer;
+}
+
+.logout svg:hover {
+  color: var(--red);
 }

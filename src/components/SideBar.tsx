@@ -40,7 +40,9 @@ export function SideBar() {
       </ul>
 
       <div className={styles.logout}>
-        <FiLogOut size="28" />
+        <Link href="/">
+          <FiLogOut size="28" />
+        </Link>
       </div>
     </div>
   );

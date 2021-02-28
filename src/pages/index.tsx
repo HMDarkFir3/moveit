@@ -3,6 +3,10 @@ import { signIn, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
 import styles from "../styles/pages/Login.module.css";
 
+import Head from "next/head";
+
+import { FiLogIn } from "react-icons/fi";
+
 export default function Login() {
   const [session] = useSession();
   const router = useRouter();
@@ -15,6 +19,9 @@ export default function Login() {
 
   return (
     <div className={styles.containerLogin}>
+      <Head>
+        <title>Login | move.it</title>
+      </Head>
       <img
         src="/symbol-logo.svg"
         alt="Símbolo move.it"
@@ -24,19 +31,20 @@ export default function Login() {
       <div>
         <img src="/logo-full-white.svg" alt="move.it" />
         <h1>Bem-vindo</h1>
-        <p>Faça o login com o seu Github ou Google para começar</p>
-      </div>
 
-      <button
-        type="button"
-        onClick={() =>
-          signIn("github", {
-            callbackUrl: "http://localhost:3000/home",
-          })
-        }
-      >
-        Continuar com Github
-      </button>
+        <p>Faça o login com o seu Github para começar</p>
+
+        <button
+          type="button"
+          onClick={() =>
+            signIn("github", {
+              callbackUrl: `${process.env.REACT_APP_URL}/home`,
+            })
+          }
+        >
+          Continuar com Github
+        </button>
+      </div>
     </div>
   );
 }

@@ -16,7 +16,13 @@ import { CountdownProvider } from "../contexts/CountdownContext";
 //Style
 import styles from "../styles/pages/Home.module.css";
 
+interface userGithub {
+  name: string;
+  avatar_url: string;
+}
+
 interface HomeProps {
+  user: userGithub;
   level: number;
   currentExperience: number;
   challengesCompleted: number;
