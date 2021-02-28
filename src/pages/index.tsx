@@ -1,11 +1,10 @@
 import { useEffect } from "react";
 import { signIn, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
-import styles from "../styles/pages/Login.module.css";
-
 import Head from "next/head";
 
-import { FiLogIn } from "react-icons/fi";
+//Style
+import styles from "../styles/pages/Login.module.css";
 
 export default function Login() {
   const [session] = useSession();
@@ -32,7 +31,7 @@ export default function Login() {
         <img src="/logo-full-white.svg" alt="move.it" />
         <h1>Bem-vindo</h1>
 
-        <p>Faça o login com o seu Github para começar</p>
+        <p>Faça o login com o seu GitHub para começar</p>
 
         <button
           type="button"

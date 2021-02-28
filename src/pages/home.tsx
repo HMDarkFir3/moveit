@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import { useSession } from "next-auth/client";
 import Head from "next/head";
 import { GetServerSideProps } from "next";
 
@@ -29,6 +32,15 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
+  const [session, loading] = useSession();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (!loading && !session) {
+      router.push("/");
+    }
+  }, [session, loading, router]);
+
   return (
     <ChallengesProvider
       level={props.level}
@@ -43,18 +55,20 @@ export default function Home(props: HomeProps) {
 
         <ExperienceBar />
 
-        <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
+        {!loading && (
+          <CountdownProvider>
+            <section>
+              <div>
+                <Profile />
+                <CompletedChallenges />
+                <Countdown />
+              </div>
+              <div>
+                <ChallengeBox />
+              </div>
+            </section>
+          </CountdownProvider>
+        )}
       </div>
     </ChallengesProvider>
   );

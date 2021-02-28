@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { signOut } from "next-auth/client";
 
 //Styles
 import styles from "../styles/components/SideBar.module.css";
@@ -32,17 +33,17 @@ export function SideBar() {
             <FiAward size={28} color="#666666" />
           </Link>
         </li>
-        <li className={router.pathname == "/settings" ? styles.menuActive : ""}>
-          <Link href="/settings">
-            <FiSettings size={28} color="#666666" />
-          </Link>
-        </li>
       </ul>
 
       <div className={styles.logout}>
-        <Link href="/">
-          <FiLogOut size="28" />
-        </Link>
+        <FiLogOut
+          onClick={() =>
+            signOut({
+              callbackUrl: "http:localhost:3000",
+            })
+          }
+          size="28"
+        />
       </div>
     </div>
   );
