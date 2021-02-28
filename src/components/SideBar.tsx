@@ -38,7 +38,7 @@ export function SideBar() {
         <FiLogOut
           onClick={() =>
             signOut({
-              callbackUrl: "https://moveit-6jvvw0eqp-hmdarkfir3.vercel.app",
+              callbackUrl: `${process.env.REACT_APP_URL}/`,
             })
           }
           size="28"
