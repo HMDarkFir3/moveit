@@ -8,7 +8,7 @@
 <hr>
 
 ## Application Demo 
-[Click here.](https://moveit-inky.vercel.app)
+[Click here.](https://moveit-lime-ten.vercel.app)
 
 <hr>
 
