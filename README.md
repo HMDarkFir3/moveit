@@ -1,12 +1,14 @@
 <p align="center" >
   <img align="center" src="https://user-images.githubusercontent.com/65872394/109370045-80ad0580-787d-11eb-838c-03cbe0ab0880.png" />
-  <p align="center">🚧 Under construction... 🚧</p>
+  <h1 align="center">move.it</h1>
 </p>
 
+<p align="center">🚧 Under construction... 🚧</p>
+  
 <hr>
 
 ## Application Demo 
-[Click here.](https://moveit-inky.vercel.app)
+[Click here.](https://moveit-lime-ten.vercel.app)
 
 <hr>
 
@@ -37,7 +39,9 @@ The following tools were used in the construction of the project:
 
 - [React.js](https://reactjs.org)
 - [Next.js](https://nextjs.org)
+- [NextAuth.js](https://next-auth.js.org)
 - [Typescript](https://www.typescriptlang.org)
+- [styled-components](https://styled-components.com)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [js-cookie](https://github.com/js-cookie/js-cookie)
 
