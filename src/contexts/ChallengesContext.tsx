@@ -1,10 +1,16 @@
+//React.js
 import { createContext, useState, useEffect, ReactNode } from "react";
+
+//js-cookie
 import Cookies from "js-cookie";
-import challenges from "../../challenges.json";
 
 //Component
 import { LevelUpModal } from "../components/LevelUpModal";
 
+//External File
+import challenges from "../../challenges.json";
+
+//Interface
 interface Challenge {
   type: "body" | "eye";
   description: string;

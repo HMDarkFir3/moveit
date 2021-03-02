@@ -1,13 +1,19 @@
-import { useState, useEffect, useContext } from "react";
-import { IoCheckmarkCircle } from "react-icons/io5";
-import { BsFillPlayFill } from "react-icons/bs";
-import { IoClose } from "react-icons/io5";
+//React.js
+import { useContext } from "react";
 
 //Context
 import { CountdownContext } from "../contexts/CountdownContext";
 
 //Style
-import styles from "../styles/components/Countdown.module.css";
+import {
+  CountdownContainer,
+  CountdownButton,
+} from "../styles/components/Countdown";
+
+//Icon
+import { IoCheckmarkCircle } from "react-icons/io5";
+import { BsFillPlayFill } from "react-icons/bs";
+import { IoClose } from "react-icons/io5";
 
 export function Countdown() {
   const {
@@ -24,7 +30,7 @@ export function Countdown() {
 
   return (
     <div>
-      <div className={styles.countdownContainer}>
+      <CountdownContainer>
         <div>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
@@ -34,37 +40,33 @@ export function Countdown() {
           <span>{secondLeft}</span>
           <span>{secondRight}</span>
         </div>
-      </div>
+      </CountdownContainer>
 
       {hasFinished ? (
-        <button disabled className={`${styles.countdownButton}`}>
+        <CountdownButton isActive disabled>
           <p>Ciclo encerrado</p>
           <IoCheckmarkCircle
             color="#4cd62b"
             size="20"
-            className={styles.iconCheck}
+            style={{ marginLeft: "0.5rem", marginTop: "0.3rem" }}
           />
-        </button>
+        </CountdownButton>
       ) : (
         <>
           {isActive ? (
-            <button
-              type="button"
-              className={`${styles.countdownButton}  ${styles.countdownButtonActive}`}
-              onClick={resetCountdown}
-            >
+            <CountdownButton isActive type="button" onClick={resetCountdown}>
               Abandonar ciclo
-              <IoClose className={styles.iconClose} />
-            </button>
+              <IoClose size="20" style={{ marginLeft: "0.5rem" }} />
+            </CountdownButton>
           ) : (
-            <button
+            <CountdownButton
+              isActive={false}
               type="button"
-              className={styles.countdownButton}
               onClick={startCountdown}
             >
               Iniciar um ciclo
-              <BsFillPlayFill className={styles.iconPlay} />
-            </button>
+              <BsFillPlayFill size="20" style={{ marginLeft: "0.5rem" }} />
+            </CountdownButton>
           )}
         </>
       )}

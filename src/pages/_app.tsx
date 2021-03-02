@@ -1,11 +1,17 @@
+//Next.js
 import { Provider } from "next-auth/client";
-import "../styles/global.css";
+
+//Style
+import { GlobalStyle } from "../styles/global";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider session={pageProps.session}>
-      <Component {...pageProps} />
-    </Provider>
+    <>
+      <GlobalStyle />
+      <Provider session={pageProps.session}>
+        <Component {...pageProps} />
+      </Provider>
+    </>
   );
 }
 

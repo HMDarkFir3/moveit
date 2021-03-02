@@ -1,3 +1,4 @@
+//React.js
 import {
   createContext,
   useState,
@@ -5,8 +6,11 @@ import {
   useContext,
   ReactNode,
 } from "react";
+
+//Context
 import { ChallengesContext } from "./ChallengesContext";
 
+//Interface
 interface CountdownContextData {
   isActive: boolean;
   hasFinished: boolean;

@@ -1,10 +1,13 @@
+//React.js
 import { useEffect } from "react";
+
+//Next.js
+import Head from "next/head";
 import { signIn, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
-import Head from "next/head";
 
 //Style
-import styles from "../styles/pages/Login.module.css";
+import { LoginContainer } from "../styles/pages/Login";
 
 export default function Login() {
   const [session] = useSession();
@@ -17,15 +20,11 @@ export default function Login() {
   }, [session, router]);
 
   return (
-    <div className={styles.containerLogin}>
+    <LoginContainer>
       <Head>
         <title>Login | move.it</title>
       </Head>
-      <img
-        src="/symbol-logo.svg"
-        alt="Símbolo move.it"
-        className={styles.symbol}
-      />
+      <img src="/symbol-logo.svg" alt="Símbolo move.it" />
 
       <div>
         <img src="/logo-full-white.svg" alt="move.it" />
@@ -44,6 +43,6 @@ export default function Login() {
           Continuar com Github
         </button>
       </div>
-    </div>
+    </LoginContainer>
   );
 }

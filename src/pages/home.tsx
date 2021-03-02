@@ -1,8 +1,11 @@
+//React.js
 import { useEffect } from "react";
+
+//Next.js
+import { GetServerSideProps } from "next";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/client";
-import Head from "next/head";
-import { GetServerSideProps } from "next";
 
 //Component
 import { SideBar } from "../components/SideBar";
@@ -17,8 +20,9 @@ import { ChallengesProvider } from "../contexts/ChallengesContext";
 import { CountdownProvider } from "../contexts/CountdownContext";
 
 //Style
-import styles from "../styles/pages/Home.module.css";
+import { HomeContainer } from "../styles/pages/Home";
 
+//Interface
 interface userGithub {
   name: string;
   avatar_url: string;
@@ -48,7 +52,7 @@ export default function Home(props: HomeProps) {
       challengesCompleted={props.challengesCompleted}
     >
       <SideBar />
-      <div className={styles.container}>
+      <HomeContainer>
         <Head>
           <title>Home | move.it</title>
         </Head>
@@ -69,7 +73,7 @@ export default function Home(props: HomeProps) {
             </section>
           </CountdownProvider>
         )}
-      </div>
+      </HomeContainer>
     </ChallengesProvider>
   );
 }
