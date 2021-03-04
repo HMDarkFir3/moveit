@@ -1,9 +1,10 @@
 <p align="center" >
   <img align="center" src="https://user-images.githubusercontent.com/65872394/109370045-80ad0580-787d-11eb-838c-03cbe0ab0880.png" />
-  <h1 align="center">move.it</h1>
 </p>
 
-<p align="center">🚧 Under construction... 🚧</p>
+<h1 align="center">
+  🚧 Under construction... 🚧
+</h1>
   
 <hr>
 
@@ -41,9 +42,9 @@ The following tools were used in the construction of the project:
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
 - [Typescript](https://www.typescriptlang.org)
-- [styled-components](https://styled-components.com)
-- [React Icons](https://react-icons.github.io/react-icons/)
 - [js-cookie](https://github.com/js-cookie/js-cookie)
+- [styled-components](https://styled-components.com)
+- [styled-icons](https://styled-icons.js.org)
 
 <hr>
 
