@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Overlay = styled.div`
-  background: rgba(242, 243, 245, 0.8);
+  background: var(--background-overlay);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -14,7 +14,7 @@ export const Overlay = styled.div`
 `;
 
 export const LevelUpModalContainer = styled.div`
-  background: var(--white);
+  background: var(--background-box);
 
   width: 100%;
   max-width: 400px;
@@ -22,7 +22,7 @@ export const LevelUpModalContainer = styled.div`
   padding: 2rem 3rem;
 
   border-radius: 5px;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 60px var(--box-shadow);
 
   text-align: center;
 

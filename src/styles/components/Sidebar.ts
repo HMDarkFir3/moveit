@@ -1,7 +1,11 @@
 import styled from "styled-components";
+import { HouseDoor } from "@styled-icons/bootstrap/HouseDoor";
+import { Award } from "@styled-icons/bootstrap/Award";
+import { Trophy } from "@styled-icons/bootstrap/Trophy";
+import { Power } from "@styled-icons/bootstrap/Power";
 
 export const SidebarContainer = styled.div`
-  background: var(--white);
+  background: ${(props) => props.theme.colors.backgroundBox};
   height: 100%;
   width: 7rem;
   position: fixed;
@@ -18,6 +22,11 @@ export const SidebarContainer = styled.div`
   & img {
     position: fixed;
     top: 2rem;
+
+    height: auto;
+    width: 4rem;
+
+    color: var(--blue);
   }
 
   & ul {
@@ -51,6 +60,7 @@ export const SidebarContainer = styled.div`
 
     width: 4px;
     height: 56px;
+    margin-left: 0.25rem;
 
     background: var(--blue);
     border-radius: 0 5px 5px 0;
@@ -70,4 +80,32 @@ export const SidebarContainer = styled.div`
   .logOut svg:hover {
     color: var(--red);
   }
+`;
+
+export const HomeIcon = styled(HouseDoor)`
+  color: var(--text);
+
+  height: auto;
+  width: 2rem;
+`;
+
+export const AwardIcon = styled(Award)`
+  color: var(--text);
+
+  height: auto;
+  width: 2rem;
+`;
+
+export const TrophyIcon = styled(Trophy)`
+  color: var(--text);
+
+  height: auto;
+  width: 2rem;
+`;
+``;
+export const PowerIcon = styled(Power)`
+  color: var(--text);
+
+  height: auto;
+  width: 2rem;
 `;

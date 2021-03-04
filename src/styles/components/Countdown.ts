@@ -1,8 +1,7 @@
 import styled from "styled-components";
-
-interface IsActiveProps {
-  isActive: boolean;
-}
+import { CheckCircleFill } from "@styled-icons/bootstrap/CheckCircleFill";
+import { PlayFill } from "@styled-icons/bootstrap/PlayFill";
+import { X } from "@styled-icons/bootstrap/X";
 
 export const CountdownContainer = styled.div`
   display: flex;
@@ -18,8 +17,8 @@ export const CountdownContainer = styled.div`
     align-items: center;
     justify-content: space-evenly;
 
-    background: var(--white);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    background: var(--background-box);
+    box-shadow: var(--box-shadow);
     border-radius: 5px;
     font-size: 8.5rem;
     text-align: center;
@@ -30,11 +29,11 @@ export const CountdownContainer = styled.div`
   }
 
   & > div span:first-child {
-    border-right: 1px solid #f0f1f3;
+    border-right: 1px solid var(--background);
   }
 
   & > div:last-child {
-    border-right: 1px solid #f0f1f3;
+    border-right: 1px solid var(--background);
   }
 
   & > span {
@@ -43,7 +42,7 @@ export const CountdownContainer = styled.div`
   }
 `;
 
-export const CountdownButton = styled.button<IsActiveProps>`
+export const CountdownButton = styled.button`
   width: 100%;
   height: 5rem;
 
@@ -56,22 +55,35 @@ export const CountdownButton = styled.button<IsActiveProps>`
   border: 0;
   border-radius: 5px;
 
-  background: ${(props) => (props.isActive ? "var(--red)" : "var(--blue)")};
+  background: var(--blue);
   color: var(--white);
 
   font-size: 1.25rem;
   font-weight: 600;
 
-  transition: background-color 0.5s;
+  box-shadow: var(--box-shadow);
 
-  &:not(:disabled):hover {
-    background: ${(props) =>
-      props.isActive ? "var(--white)" : "var(--blue-dark)"};
-    color: ${(props) => (props.isActive ? "var(--tilte)" : "var(--white)")};
+  transition: background 0.5s;
+
+  &:hover {
+    background: var(--blue-dark);
+    color: var(--white);
+  }
+
+  &.isActive {
+    background: var(--background-box);
+    color: var(--text);
+
+    transition: background 0.5s;
+  }
+
+  &.isActive:hover {
+    background: var(--red);
+    color: var(--white);
   }
 
   &:disabled {
-    background: var(--white);
+    background: var(--background-box);
     color: var(--text);
     cursor: not-allowed;
     border-bottom: 5px solid var(--green);
@@ -80,4 +92,30 @@ export const CountdownButton = styled.button<IsActiveProps>`
   &:disabled p {
     margin-top: 0.3rem;
   }
+`;
+
+export const CheckIcon = styled(CheckCircleFill)`
+  color: var(--green);
+
+  height: auto;
+  width: 1.5rem;
+
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+`;
+
+export const PlayIcon = styled(PlayFill)`
+  height: auto;
+  width: 2rem;
+
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+`;
+
+export const CloseIcon = styled(X)`
+  height: auto;
+  width: 2rem;
+
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
 `;

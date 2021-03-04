@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const ChallengeBoxContainer = styled.div`
   height: 100%;
 
-  background: var(--white);
+  background: var(--background-box);
   border-radius: 5px;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--box-shadow);
   padding: 1.5rem 2rem;
 
   display: flex;
@@ -41,12 +41,14 @@ export const ChallengeActive = styled.div`
   & main strong {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--title);
+    color: var(--text);
     margin: 1.5rem 0 1rem;
   }
 
   & main p {
     line-height: 1.5;
+
+    color: var(--text);
   }
 
   & footer {

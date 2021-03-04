@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import { Github } from "@styled-icons/bootstrap/Github";
 
 export const LoginContainer = styled.div`
-  background: var(--blue);
+  background: ${(props) =>
+    props.theme.title === "light" ? "#5965e0" : "#121214"};
   background-size: contain;
   color: var(--white);
   height: 100vh;
@@ -35,29 +37,44 @@ export const LoginContainer = styled.div`
   }
 
   & div p {
-    color: var(--text-highlight);
+    color: var(--white);
     font-size: 1.25rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
   & button {
+    display: flex;
     height: 4rem;
 
     padding-left: 1rem;
 
-    background: var(--blue-dark);
+    background: ${(props) =>
+      props.theme.title === "light" ? "#4953b8" : "#202024"};
     border: 0;
-    color: var(--text-highlight);
+    color: var(--white);
     outline-color: var(--white);
 
     text-align: start;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 1.05rem;
 
     border-radius: 5px;
+
+    transition: background 0.5s;
   }
 
-  & button + button {
-    margin-top: 1.5rem;
+  & button:hover {
+    background: var(--green);
+    color: var(--white);
   }
+`;
+
+export const GitHubIcon = styled(Github)`
+  height: auto;
+  width: 2rem;
+  margin-right: 1rem;
+
+  color: var(--white);
 `;

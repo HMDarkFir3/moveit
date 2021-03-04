@@ -8,12 +8,10 @@ import { CountdownContext } from "../contexts/CountdownContext";
 import {
   CountdownContainer,
   CountdownButton,
+  CheckIcon,
+  PlayIcon,
+  CloseIcon,
 } from "../styles/components/Countdown";
-
-//Icon
-import { IoCheckmarkCircle } from "react-icons/io5";
-import { BsFillPlayFill } from "react-icons/bs";
-import { IoClose } from "react-icons/io5";
 
 export function Countdown() {
   const {
@@ -43,29 +41,25 @@ export function Countdown() {
       </CountdownContainer>
 
       {hasFinished ? (
-        <CountdownButton isActive disabled>
+        <CountdownButton disabled>
           <p>Ciclo encerrado</p>
-          <IoCheckmarkCircle
-            color="#4cd62b"
-            size="20"
-            style={{ marginLeft: "0.5rem", marginTop: "0.3rem" }}
-          />
+          <CheckIcon />
         </CountdownButton>
       ) : (
         <>
           {isActive ? (
-            <CountdownButton isActive type="button" onClick={resetCountdown}>
+            <CountdownButton
+              className="isActive"
+              type="button"
+              onClick={resetCountdown}
+            >
               Abandonar ciclo
-              <IoClose size="20" style={{ marginLeft: "0.5rem" }} />
+              <CloseIcon />
             </CountdownButton>
           ) : (
-            <CountdownButton
-              isActive={false}
-              type="button"
-              onClick={startCountdown}
-            >
+            <CountdownButton type="button" onClick={startCountdown}>
               Iniciar um ciclo
-              <BsFillPlayFill size="20" style={{ marginLeft: "0.5rem" }} />
+              <PlayIcon />
             </CountdownButton>
           )}
         </>

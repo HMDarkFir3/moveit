@@ -1,48 +1,57 @@
 //React.js
-import { useState, useEffect } from "react";
+import { useContext } from "react";
 
 //Next.js
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { signOut } from "next-auth/client";
 
+//Context
+import { ThemeContext } from "../contexts/ThemeContext";
+
 //Styles
-import { SidebarContainer } from "../styles/components/Sidebar";
+import {
+  SidebarContainer,
+  HomeIcon,
+  AwardIcon,
+  TrophyIcon,
+  PowerIcon,
+} from "../styles/components/Sidebar";
 
-//Icon
-import { FiHome } from "react-icons/fi";
-import { FiAward } from "react-icons/fi";
-import { FiLogOut } from "react-icons/fi";
-
-export function SideBar() {
+export function Sidebar() {
   const router = useRouter();
 
   return (
     <SidebarContainer>
-      <img src="logo-blue.svg" alt="move.it" />
+      <img src="images/logo-blue.svg" alt="move.it" />
 
       <ul>
         <li className={router.pathname == "/home" ? "menuActive" : ""}>
           <Link href="/home">
-            <FiHome size={28} color="#666666" />
+            <HomeIcon />
           </Link>
         </li>
 
         <li className={router.pathname == "/leaderboard" ? "menuActive" : ""}>
           <Link href="/leaderboard">
-            <FiAward size={28} color="#666666" />
+            <AwardIcon />
+          </Link>
+        </li>
+
+        <li className={router.pathname == "/trophy" ? "menuActive" : ""}>
+          <Link href="/trophy">
+            <TrophyIcon />
           </Link>
         </li>
       </ul>
 
       <div className="logOut">
-        <FiLogOut
+        <PowerIcon
           onClick={() =>
             signOut({
               callbackUrl: `${process.env.REACT_APP_URL}`,
             })
           }
-          size="28"
         />
       </div>
     </SidebarContainer>
