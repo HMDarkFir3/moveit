@@ -42,9 +42,9 @@ The following tools were used in the construction of the project:
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
 - [Typescript](https://www.typescriptlang.org)
-- [styled-components](https://styled-components.com)
-- [React Icons](https://react-icons.github.io/react-icons/)
 - [js-cookie](https://github.com/js-cookie/js-cookie)
+- [styled-components](https://styled-components.com)
+- [styled-icons](https://styled-icons.js.org)
 
 <hr>
 
