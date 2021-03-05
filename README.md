@@ -41,7 +41,7 @@ The following tools were used in the construction of the project:
 - [React.js](https://reactjs.org)
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Typescript](https://www.typescriptlang.org)
+- [TypeScript](https://www.typescriptlang.org)
 - [js-cookie](https://github.com/js-cookie/js-cookie)
 - [styled-components](https://styled-components.com)
 - [styled-icons](https://styled-icons.js.org)
