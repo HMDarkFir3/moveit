@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  🚧 Under construction... 🚧
+  🚧 Under Construction... 🚧
 </h1>
   
 <hr>
