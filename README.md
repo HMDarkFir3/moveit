@@ -5,17 +5,15 @@
 <h1 align="center">
   🚧 Em Construção... 🚧
 </h1>
+
+<p>
+  <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
+</p>
   
 <hr>
 
 ## Sobre
 MoveIt e uma aplicação para incentivar quem fica horas no computador a se exercitar, usando o método pomodoro, a cada 25 minutos concentrado no trabalho ele terá uma pausa para efetuar um pequeno exercício e com adição da gamificação na aplicação.
-
-<hr>
-
-<h2>
-  <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
-</h1>
 
 <hr>
 
