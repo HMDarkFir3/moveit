@@ -18,9 +18,6 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 </p>
 
-
-
-
 <p align="center" >
   <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
 </p>
