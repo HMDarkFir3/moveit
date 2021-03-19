@@ -20,14 +20,14 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 ## Como rodar o projeto
 
 ```bash
-#  Dentro de uma pasta, escreva:
+#  Clone o repositório:
 $ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
 
 # Entrar no diretório
 cd NLW-04_move.it
 
 
-# Depois instalar as dependências
+# Instalar as dependências
 npm install  
 or 
 yarn install
@@ -42,7 +42,7 @@ yarn dev
 
 ## Tecnologias Utilizadas
  
-The following tools were used in the construction of the project:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [React.js](https://reactjs.org)
 - [Next.js](https://nextjs.org)
