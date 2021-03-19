@@ -29,9 +29,9 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 
 ## 🎖 Milestone
 
-    -Ajustar designer do app para Mobile
-    -Adicionar compartilhar com Redes Sociais
-    -Adicionar o leaderboard
+    -Ajustar designer do app para Mobile;
+    -Adicionar compartilhar com Redes Sociais;
+    -Adicionar o leaderboard;
 
 ---
 
