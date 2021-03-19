@@ -35,24 +35,72 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 
 ---
 
-## 📂 Como rodar o projeto
+## 📂 Como rodar este projeto
+
+Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
+
+### 🌀 Clonando o repositório
 
 ```bash
-#  Clone o repositório:
-git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
+# Clone este repositório
+$ git clone https://github.com/Alquipo/moveit
 
-# Entrar no diretório
-cd NLW-04_move.it
+# Acesse a pasta do projeto no terminal/cmd
+$ cd moveit
+```
 
-# Instalar as dependências
-npm install  
-ou
-yarn install
+### 🎲 Rodando a Aplicação
 
-# Iniciar o projeto
-npm run dev
-ou
-yarn dev
+```bash
+# Instale as dependências
+$ yarn install
+
+# Execute a Aplicação em Desenvolvimento
+$ yarn dev
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+
+```
+
+### 💾 Comandos Úteis
+
+```bash
+#Criação de um componente completo com (index.tsx / stories.tsx / styles.ts / test.tsx)
+$ yarn generate ComponentName
+
+#Rodar o Storybook
+$ yarn storybook
+
+#Rodar os testes
+$ yarn test
+
+```
+
+### 📁 Configuração .ENV
+
+```bash
+#adicionado .env.example no projeto, lembrar de adicionar as variáveis de ambiente conforme o exemplo
+
+# VERCEL
+VERCEL=
+VERCEL_ENV=
+VERCEL_URL=
+VERCEL_GIT_PROVIDER=""
+VERCEL_GIT_REPO_SLUG=""
+VERCEL_GIT_REPO_OWNER=""
+VERCEL_GIT_REPO_ID=""
+VERCEL_GIT_COMMIT_REF=""
+VERCEL_GIT_COMMIT_SHA=""
+VERCEL_GIT_COMMIT_MESSAGE=""
+VERCEL_GIT_COMMIT_AUTHOR_LOGIN=""
+VERCEL_GIT_COMMIT_AUTHOR_NAME=""
+
+# GITHUB
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+
+NEXTAUTH_URL=
+REACT_APP_URL=
 ```
 
 ---
