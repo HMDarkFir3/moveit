@@ -12,12 +12,12 @@
   
 <hr>
 
-## Sobre
+## 📋 Sobre
 MoveIt e uma aplicação para incentivar quem fica horas no computador a se exercitar, usando o método pomodoro, a cada 25 minutos concentrado no trabalho ele terá uma pausa para efetuar um pequeno exercício e com adição da gamificação na aplicação.
 
 <hr>
 
-## Como rodar o projeto
+## 📂 Como rodar o projeto
 
 ```bash
 #  Clone o repositório:
@@ -39,7 +39,7 @@ yarn dev
 
 <hr>
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
  
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -53,7 +53,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 <hr>
 
-## Autor
+## 🧑 Autor
 
 <img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
  <h4>Henrique Luís Oliveira Marques</h4>
@@ -62,7 +62,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 <hr>
 
-## Licença
+## 📝 Licença
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais. 
 <br>
 👋🏽 [Entre em contato!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
