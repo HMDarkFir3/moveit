@@ -6,7 +6,20 @@
   🚧 Em Construção... 🚧
 </h1>
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+<p align="center" >
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hmdarkfir3/NLW-04_move.it" />
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/hmdarkfir3/NLW-04_move.it">
+  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hmdarkfir3/NLW-04_move.it">
+  
+  <img alt="Repository issues size" src="https://img.shields.io/github/issues/hmdarkfir3/NLW-04_move.it">
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
+</p>
+
+
+
 
 <p align="center" >
   <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
