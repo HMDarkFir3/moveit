@@ -19,18 +19,20 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 
 ## Como rodar o projeto
 
-Inside a folder, run:
 ```bash
+#  Dentro de uma pasta, escreva:
 $ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
-```
-At the root of the project, run:
-```bash
+
+# Entrar no diretório
+cd NLW-04_move.it
+
+
+# Depois instalar as dependências
 npm install  
 or 
 yarn install
-```
-After installing the project dependencies, run:
-```bash
+
+# Iniciar o projeto
 npm run dev
 or
 yarn dev
