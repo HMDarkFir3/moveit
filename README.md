@@ -6,7 +6,7 @@
   🚧 Em Construção... 🚧
 </h1>
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENCE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
 <p align="center" >
   <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
