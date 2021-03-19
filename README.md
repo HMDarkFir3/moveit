@@ -28,12 +28,12 @@ cd NLW-04_move.it
 
 # Instalar as dependências
 npm install  
-or 
+ou
 yarn install
 
 # Iniciar o projeto
 npm run dev
-or
+ou
 yarn dev
 ```
 
