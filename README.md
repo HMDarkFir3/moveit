@@ -43,7 +43,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/moveit
+$ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd moveit
@@ -59,21 +59,6 @@ $ yarn install
 $ yarn dev
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000
-
-```
-
-### 💾 Comandos Úteis
-
-```bash
-#Criação de um componente completo com (index.tsx / stories.tsx / styles.ts / test.tsx)
-$ yarn generate ComponentName
-
-#Rodar o Storybook
-$ yarn storybook
-
-#Rodar os testes
-$ yarn test
-
 ```
 
 ### 📁 Configuração .ENV
