@@ -63,6 +63,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 <hr>
 
 ## Licença
-This project is under the license [MIT](./LICENSE)
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais. 
 <br>
 👋🏽 [Entre em contato!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
