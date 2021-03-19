@@ -17,6 +17,16 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 
 ---
 
+## 🎉 Melhorias na Aplicação
+
+    -Adicionado uma SideBar
+    -Adicionado autenticação com github via Auth0;
+    -Adicionado theme dark na aplicação;
+    -Adicionado save theme no localStorage;
+    -Adicionado Ícones para representar os botões;
+
+---
+
 ## 📂 Como rodar o projeto
 
 ```bash
