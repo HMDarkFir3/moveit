@@ -38,7 +38,7 @@ yarn dev
 
 <hr>
 
-## Technologies 
+## Tecnologias Utilizadas
  
 The following tools were used in the construction of the project:
 
@@ -52,7 +52,7 @@ The following tools were used in the construction of the project:
 
 <hr>
 
-## Author 
+## Autor
 
 <img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
  <h4>Henrique Luís Oliveira Marques</h4>
@@ -61,7 +61,7 @@ The following tools were used in the construction of the project:
 
 <hr>
 
-## License
+## Licença
 This project is under the license [MIT](./LICENSE)
 <br>
 👋🏽 [Get in Touch!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
