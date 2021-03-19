@@ -21,7 +21,7 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 
 ```bash
 #  Clone o repositório:
-$ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
+git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
 
 # Entrar no diretório
 cd NLW-04_move.it
