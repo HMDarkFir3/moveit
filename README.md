@@ -10,12 +10,12 @@
   <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
 </p>
   
-<hr>
+---
 
 ## 📋 Sobre
 MoveIt e uma aplicação para incentivar quem fica horas no computador a se exercitar, usando o método pomodoro, a cada 25 minutos concentrado no trabalho ele terá uma pausa para efetuar um pequeno exercício e com adição da gamificação na aplicação.
 
-<hr>
+---
 
 ## 📂 Como rodar o projeto
 
@@ -37,7 +37,7 @@ ou
 yarn dev
 ```
 
-<hr>
+---
 
 ## 🚀 Tecnologias Utilizadas
  
@@ -51,7 +51,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [styled-components](https://styled-components.com)
 - [styled-icons](https://styled-icons.js.org)
 
-<hr>
+---
 
 ## 💪 Como contribuir para o projeto
 
@@ -61,7 +61,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 4. Envie as suas alterações: `git push origin my-feature`
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-<hr>
+---
 
 ## 🧑 Autor
 
@@ -70,7 +70,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Henrique-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/) 
 
-<hr>
+---
 
 ## 📝 Licença
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais. 
