@@ -58,7 +58,7 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 $ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd moveit
+$ cd NLW-04_move.it
 ```
 
 ### 🎲 Rodando a Aplicação
