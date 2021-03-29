@@ -24,7 +24,7 @@ export function Profile() {
     <ProfileContainer>
       <img src={session.user.image} alt={session.user.name} />
       <div>
-        <strong>{session.user.name}</strong>
+        <strong>{session.user.id}</strong>
         <p>
           <img src="icons/level.svg" alt="Seu level" />
           Level {level}
