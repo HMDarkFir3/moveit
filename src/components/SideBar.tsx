@@ -1,13 +1,7 @@
-//React.js
-import { useContext } from "react";
-
 //Next.js
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { signOut } from "next-auth/client";
-
-//Context
-import { ThemeContext } from "../contexts/ThemeContext";
 
 //Styles
 import {
@@ -18,7 +12,7 @@ import {
   PowerIcon,
 } from "../styles/components/Sidebar";
 
-export function Sidebar() {
+export function SideBar() {
   const router = useRouter();
 
   return (

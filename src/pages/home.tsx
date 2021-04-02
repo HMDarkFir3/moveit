@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { useSession } from "next-auth/client";
 
 //Component
-import { Sidebar } from "../components/Sidebar";
+import { SideBar } from "../components/SideBar";
 import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 import { CompletedChallenges } from "../components/CompletedChallenges";
@@ -51,7 +51,7 @@ export default function Home(props: HomeProps) {
       currentExperience={props.currentExperience}
       challengesCompleted={props.challengesCompleted}
     >
-      <Sidebar />
+      <SideBar />
       <HomeContainer>
         <Head>
           <title>Home | move.it</title>

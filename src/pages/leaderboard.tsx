@@ -2,7 +2,7 @@
 import Head from "next/head";
 
 //Component
-import { Sidebar } from "../components/Sidebar";
+import { SideBar } from "../components/SideBar";
 
 //Style
 import styles from "../styles/pages/Settings.module.css";
@@ -14,7 +14,7 @@ export default function Leaderboard() {
         <title>Leaderboard | move.it</title>
       </Head>
 
-      <Sidebar />
+      <SideBar />
 
       <div>
         <div></div>
