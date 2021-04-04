@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Github } from "@styled-icons/bootstrap/Github";
+import { Google } from "@styled-icons/bootstrap/Google";
 
 export const LoginContainer = styled.div`
   background: ${(props) =>
@@ -69,9 +70,21 @@ export const LoginContainer = styled.div`
     background: var(--green);
     color: var(--white);
   }
+
+  & button + button {
+    margin-top: 15px;
+  }
 `;
 
 export const GitHubIcon = styled(Github)`
+  height: auto;
+  width: 2rem;
+  margin-right: 1rem;
+
+  color: var(--white);
+`;
+
+export const GoogleIcon = styled(Google)`
   height: auto;
   width: 2rem;
   margin-right: 1rem;

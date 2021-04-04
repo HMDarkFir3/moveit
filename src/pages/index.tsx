@@ -7,7 +7,7 @@ import { signIn, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
 
 //Style
-import { LoginContainer, GitHubIcon } from "../styles/pages/Login";
+import { LoginContainer, GitHubIcon, GoogleIcon } from "../styles/pages/Login";
 
 export default function Login() {
   const [session] = useSession();
@@ -36,7 +36,7 @@ export default function Login() {
           type="button"
           onClick={() =>
             signIn("github", {
-              callbackUrl: `${process.env.NEXTAUTH_URL}/home`,
+              callbackUrl: `${process.env.REACT_APP_URL}/home`,
             })
           }
         >
@@ -47,11 +47,11 @@ export default function Login() {
           type="button"
           onClick={() =>
             signIn("google", {
-              callbackUrl: `${process.env.NEXTAUTH_URL}/home`,
+              callbackUrl: `${process.env.REACT_APP_URL}/home`,
             })
           }
         >
-          Continuar com Google
+          <GoogleIcon /> Continuar com Google
         </button>
       </div>
     </LoginContainer>
