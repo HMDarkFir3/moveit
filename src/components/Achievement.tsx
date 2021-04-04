@@ -9,6 +9,7 @@ export function Achievement() {
     <AchievementContainer>
       <img src="images/trophy.svg" alt="Troféu" />
       <h1>achievement</h1>
+      <p>teste</p>
     </AchievementContainer>
   );
 }
