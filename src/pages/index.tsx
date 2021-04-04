@@ -36,11 +36,22 @@ export default function Login() {
           type="button"
           onClick={() =>
             signIn("github", {
-              callbackUrl: `${process.env.REACT_APP_URL}/home`,
+              callbackUrl: `${process.env.NEXTAUTH_URL}/home`,
             })
           }
         >
           <GitHubIcon /> Continuar com Github
+        </button>
+
+        <button
+          type="button"
+          onClick={() =>
+            signIn("google", {
+              callbackUrl: `${process.env.NEXTAUTH_URL}/home`,
+            })
+          }
+        >
+          Continuar com Google
         </button>
       </div>
     </LoginContainer>
