@@ -124,7 +124,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🧑 Autor
 
-<img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
+<img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="150px;" alt=""/>
  <h4>Henrique Luís Oliveira Marques</h4>
 
 <p align="left">
