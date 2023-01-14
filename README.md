@@ -38,8 +38,6 @@ MoveIt e uma aplicação para incentivar quem fica horas no computador a se exer
 ## 🎖 Milestone
 
     -Ajustar designer do app para Mobile;
-    -Adicionar compartilhar com Redes Sociais;
-    -Adicionar o leaderboard;
 
 ---
 
@@ -51,10 +49,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/HMDarkFir3/NLW-04_move.it.git
+$ git clone https://github.com/HMDarkFir3/moveit.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd NLW-04_move.it
+$ cd moveit
 ```
 
 ### 🎲 Rodando a Aplicação
@@ -106,9 +104,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
 - [TypeScript](https://www.typescriptlang.org)
-- [js-cookie](https://github.com/js-cookie/js-cookie)
-- [styled-components](https://styled-components.com)
-- [styled-icons](https://styled-icons.js.org)
+- [JS Cookie](https://github.com/js-cookie/js-cookie)
+- [Styled Components](https://styled-components.com)
+- [Styled Icons](https://styled-icons.js.org)
 
 ---
 
