@@ -56,7 +56,7 @@ $ git clone https://github.com/HMDarkFir3/moveit.git
 $ cd moveit
 ```
 
-### 🎲 Rodando a Aplicação
+### 🎲 Running the Application
 
 ```bash
 # Install dependencies
