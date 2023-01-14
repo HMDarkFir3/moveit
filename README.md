@@ -15,7 +15,7 @@
 </p>
 
 <p align="center" >
-  <a href="https://moveit-lime-ten.vercel.app">Demonstração da Aplicação</a>
+  <a href="https://moveit-lime-ten.vercel.app">Application Demonstration</a>
 </p>
   
 ---
