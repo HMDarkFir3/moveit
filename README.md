@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  🚧 Em Construção... 🚧
+  🚧 Under construction... 🚧
 </h1>
 
 <p align="center" >
@@ -20,57 +20,58 @@
   
 ---
 
-## 📋 Sobre
-MoveIt e uma aplicação para incentivar quem fica horas no computador a se exercitar, usando o método pomodoro, a cada 25 minutos concentrado no trabalho ele terá uma pausa para efetuar um pequeno exercício e com adição da gamificação na aplicação.
+## 📋 About
+
+MoveIt is an application to encourage those who spend hours at the computer to exercise, using the pomodoro method, every 25 minutes concentrated on work they will have a break to do a little exercise and with the addition of gamification in the application.
 
 ---
 
-## 🎉 Melhorias na Aplicação
+## 🎉 Improvements
 
-    -Adicionado uma SideBar;
-    -Adicionado autenticação com github via Auth0;
-    -Adicionado theme dark na aplicação;
-    -Adicionado save theme no localStorage;
-    -Adicionado Ícones para representar os botões;
+    - Added a SideBar;
+    - Added authentication with github via Auth0;
+    - Added dark theme in the application;
+    - Added save theme to localStorage;
+    - Added Icons to represent the buttons;
 
 ---
 
 ## 🎖 Milestone
 
-    -Ajustar designer do app para Mobile;
+    - Adjust mobile app designer;
 
 ---
 
-## 📂 Como rodar este projeto
+## 📂 How to run this project
 
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
+To clone and run this app, you will need to [Git](https://git-scm.com) and [NodeJs](https://nodejs.org/en/).
 
-### 🌀 Clonando o repositório
+### 🌀 Cloning the repository
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/HMDarkFir3/moveit.git
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in the terminal/cmd
 $ cd moveit
 ```
 
 ### 🎲 Rodando a Aplicação
 
 ```bash
-# Instale as dependências
+# Install dependencies
 $ yarn install
 
-# Execute a Aplicação em Desenvolvimento
+# Run the Application in Development
 $ yarn dev
 
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+# The server will log in port:3000 - `http://localhost:300`
 ```
 
-### 📁 Configuração .ENV
+### 📁 .ENV Configuration 
 
 ```bash
-#adicionado .env.example no projeto, lembrar de adicionar as variáveis de ambiente conforme o exemplo
+# added .env.example in the project, remember to add the environment variables as per the example
 
 # VERCEL
 VERCEL=
@@ -96,9 +97,9 @@ REACT_APP_URL=
 
 ---
 
-## 🚀 Tecnologias Utilizadas
- 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## 🚀 Technologies Used
+
+The project was developed using the following technologies:
 
 - [React.js](https://reactjs.org)
 - [Next.js](https://nextjs.org)
@@ -110,17 +111,17 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 💪 Como contribuir para o projeto
+## 💪 How to contribute to the project
 
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+1. Make a **fork** of the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save the changes and create a commit message telling you what you've done: `git commit -m "feature: My new feature"`
+4. Submit your changes: `git push origin my-feature`
+   > If you have any questions check out this [guide on how to contribute to GitHub](https://github.com/firstcontributions/first-contributions)
 
 ---
 
-## 🧑 Autor
+## 🧑 Author
 
 <img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="150px;" alt=""/>
  <h4>Henrique Luís Oliveira Marques</h4>
@@ -131,7 +132,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 📝 Licença
-Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais. 
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](./LICENSE) to learn more.
 <br>
-👋🏽 [Entre em contato!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
+👋🏽 [Get in touch!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
