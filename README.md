@@ -101,8 +101,8 @@ REACT_APP_URL=
 
 The project was developed using the following technologies:
 
-- [React.js](https://reactjs.org)
-- [Next.js](https://nextjs.org)
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [JS Cookie](https://github.com/js-cookie/js-cookie)
